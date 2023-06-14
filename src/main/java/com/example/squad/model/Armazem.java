@@ -17,7 +17,4 @@ public class Armazem {
     @Column(nullable = false)
     private String animal;
 
-
-
-
 }
