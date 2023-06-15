@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="958f682e-51ba-48f7-bd08-61e6129293f8" name="Changes" comment="Configuração do arquivo properties e criação do package com as classes Armazem, Estoque e Produto.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/squad/repository/ProdutoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/squad/service/ArmazemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/squad/service/ArmazemServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/squad/service/ProdutoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/squad/service/ProdutoServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/squad/model/Armazem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/squad/model/Armazem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +87,9 @@
       <workItem from="1686522866803" duration="7699000" />
       <workItem from="1686609446016" duration="83000" />
       <workItem from="1686609608048" duration="4024000" />
+      <workItem from="1686698624631" duration="2332000" />
+      <workItem from="1686783360021" duration="1765000" />
+      <workItem from="1686786267241" duration="4816000" />
     </task>
     <task id="LOCAL-00001" summary="Configuração do arquivo properties e criação do package com as classes Armazem, Estoque e Produto.">
       <created>1686535072081</created>

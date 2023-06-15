@@ -11,6 +11,7 @@ public class Armazem {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @ManyToOne
     @Column(nullable = false)
     private String nome;
 
