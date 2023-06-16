@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="958f682e-51ba-48f7-bd08-61e6129293f8" name="Changes" comment="Configuração do arquivo properties e criação do package com as classes Armazem, Estoque e Produto.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/squad/controllers/ArmazemController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/squad/service/ArmazemService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/squad/model/Armazem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/squad/model/Armazem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/squad/controllers/ArmazemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/squad/controllers/ArmazemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/squad/controllers/ArmazemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/squad/controllers/ArmazemController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,25 +42,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/samuelsenai/Imagens/Projetos/SQUAD01-Back-End",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "spring.configuration.checksum": "a8cb0c42967c018e80edeec24085753b",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/samuelsenai/Imagens/Projetos/SQUAD01-Back-End&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;a8cb0c42967c018e80edeec24085753b&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Squad01BackEndApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="SQUAD01-Back-End" />
@@ -86,6 +86,8 @@
       <workItem from="1686609446016" duration="83000" />
       <workItem from="1686609608048" duration="4024000" />
       <workItem from="1686769025904" duration="3287000" />
+      <workItem from="1686779651699" duration="1612000" />
+      <workItem from="1686913752820" duration="6428000" />
     </task>
     <task id="LOCAL-00001" summary="Configuração do arquivo properties e criação do package com as classes Armazem, Estoque e Produto.">
       <created>1686535072081</created>
