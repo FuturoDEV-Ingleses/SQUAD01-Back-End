@@ -3,24 +3,43 @@ package com.example.squad.controllers;
 import com.example.squad.model.Armazem;
 import com.example.squad.repository.ArmazemRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-/*
-* Armazem controller aqui sera criado todos os endpoints relacionado ao armazem!
-* Rota /armazem lista todos os dados da tabela armazem
-* */
 @RestController
-@RequestMapping("/armazem")
+@RequestMapping
 public class ArmazemController {
 
-    @Autowired
-    private ArmazemRepository armazemRepository;
+    private final ArmazemRepository armazemRepository;
 
-    @GetMapping
-    public List<Armazem> obterTodosArmazens() {
+    @Autowired
+    public ArmazemController(ArmazemRepository armazemRepository) {
+        this.armazemRepository = armazemRepository;
+    }
+
+    @GetMapping("/armazem")
+    public List<Armazem> fetchArmazemList() {
         return armazemRepository.findAll();
+    }
+
+    @PostMapping("/armazem")
+    public Armazem saveArmazem(@RequestBody Armazem armazem) {
+        return armazemRepository.save(armazem);
+    }
+
+    @PutMapping("armazem/{id}")
+    public Armazem updateArmazem(@PathVariable Long id, @RequestBody Armazem updatedArmazem) {
+        Armazem armazem = armazemRepository.findById(id).orElse(null);
+        if (armazem != null) {
+            armazem.setNome(updatedArmazem.getNome());
+            armazem.setAnimal(updatedArmazem.getAnimal());
+            return armazemRepository.save(armazem);
+        }
+        return null;
+    }
+
+    @DeleteMapping("armazem/{id}")
+    public void deleteArmazem(@PathVariable Long id) {
+        armazemRepository.deleteById(id);
     }
 }
