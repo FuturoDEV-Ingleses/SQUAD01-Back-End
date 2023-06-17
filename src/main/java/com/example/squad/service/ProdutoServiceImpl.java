@@ -21,20 +21,20 @@ public class ProdutoServiceImpl implements ProdutoService{
             buscarPorId(produto.getId());
         }
 
-        if (produto.getProduto() == null || produto.getNome().isEmpty()) {
+        if (produto.getProduto() == null || produto.getProduto().isEmpty()) {
             throw new Exception("Produto é obrigatório");
         }
         if (produto.getCategoria() == null || produto.getCategoria().isEmpty()) {
             throw new Exception("Categoria é obrigatório");
         }
 
-        if (produto.getQuantidade() == null || produto.getCor().isEmpty()) {
+        if (produto.getQuantidade() == null || produto.getQuantidade().isEmpty()) {
             throw new Exception("Quantidade é obrigatório");
         }
-        if (produto.getAnimal() == null || produto.getTamanho().isEmpty()) {
+        if (produto.getAnimal() == null || produto.getAnimal().isEmpty()) {
             throw new Exception("Animal é obrigatório");
         }
-        if (produto.getArmazenamento() == null || produto.getTamanho().isEmpty()) {
+        if (produto.getArmazenamento() == null || produto.getArmazenamento().isEmpty()) {
             throw new Exception("Armazenamento é obrigatório");
         }
 

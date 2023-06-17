@@ -12,11 +12,11 @@ public class Armazem {
     private Long id;
 
     @ManyToOne
-    @Column(nullable = false)
-    private String nome;
+    @JoinColumn(nullable = false)
+    private Armazem nome;
 
-    @Column(nullable = false)
-    private String animal;
+    @JoinColumn(nullable = false)
+    private Armazem animal;
 
 
 
