@@ -1,0 +1,23 @@
+package com.example.squad.model;
+
+import jakarta.persistence.*;
+import lombok.Data;
+
+public class Usuario {
+
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    @Column(length = 20, nullable = false)
+    private String nome;
+
+    @Column(length = 20, nullable = false)
+    private String email;
+
+    @Column(length = 20, nullable = false)
+    private String senha;
+
+
+}
