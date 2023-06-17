@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="958f682e-51ba-48f7-bd08-61e6129293f8" name="Changes" comment="Configuração do arquivo properties e criação do package com as classes Armazem, Estoque e Produto.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/squad/model/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/squad/repository/UsuarioRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/squad/service/UsuarioService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +85,7 @@
       <workItem from="1686783360021" duration="1765000" />
       <workItem from="1686786267241" duration="6943000" />
       <workItem from="1686873137740" duration="790000" />
-      <workItem from="1687023886295" duration="4923000" />
+      <workItem from="1687023886295" duration="6428000" />
     </task>
     <task id="LOCAL-00001" summary="Configuração do arquivo properties e criação do package com as classes Armazem, Estoque e Produto.">
       <created>1686535072081</created>
