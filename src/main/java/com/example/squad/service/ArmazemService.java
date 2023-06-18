@@ -1,16 +1,16 @@
-package com.example.squad.service;
+//package com.example.squad.service;
 
-import com.example.squad.model.Armazem;
+//import com.example.squad.model.Armazem;
 
-import java.util.List;
+//import java.util.List;
 
-public interface ArmazemService {
+//public interface ArmazemService {
 
-    Armazem salvar(Armazem armazem) throws Exception;
+    //Armazem salvar(Armazem armazem) throws Exception;
 
-    List<Armazem> buscarTodos();
+    //List<Armazem> buscarTodos();
 
-    Armazem buscarPorId(Long id) throws Exception;
+   // Armazem buscarPorId(Long id) throws Exception;
 
-    boolean apagar(Long id) throws Exception;
-}
+   // boolean apagar(Long id) throws Exception;
+//}
