@@ -7,21 +7,17 @@ import com.example.squad.repository.ArmazemRepository;
 
 
 @Service
-public interface ArmazemService {
+public class ArmazemService {
 
+    private final ArmazemRepository armazemRepository;
 
-
-        private final ArmazemRepository armazemRepository;
-
-        @Autowired
-        public ArmazemService(ArmazemRepository armazemRepository) {
-            this.armazemRepository = armazemRepository;
-        }
-
-        public Armazem saveArmazem(Armazem armazem) {
-            return armazemRepository.save(armazem);
-        }
+    @Autowired
+    public ArmazemService(ArmazemRepository armazemRepository) {
+        this.armazemRepository = armazemRepository;
 
     }
 
+    public Armazem saveArmazem(Armazem armazem) {
+        return armazemRepository.save(armazem);
+    }
 
