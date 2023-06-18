@@ -18,7 +18,4 @@ public class Armazem {
     @JoinColumn(nullable = false)
     private Armazem animal;
 
-
-
-
 }

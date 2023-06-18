@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="958f682e-51ba-48f7-bd08-61e6129293f8" name="Changes" comment="Configuração do arquivo properties e criação do package com as classes Armazem, Estoque e Produto.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/squad/service/ArmazemService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/squad/controllers/ArmazemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/squad/controllers/ArmazemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/squad/controllers/ArmazemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/squad/controllers/ArmazemController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +51,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/samuelsenai/Imagens/Projetos/SQUAD01-Back-End&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -81,11 +85,6 @@
       <workItem from="1686522866803" duration="7699000" />
       <workItem from="1686609446016" duration="83000" />
       <workItem from="1686609608048" duration="4024000" />
-      <workItem from="1686698624631" duration="2332000" />
-      <workItem from="1686783360021" duration="1765000" />
-      <workItem from="1686786267241" duration="6943000" />
-      <workItem from="1686873137740" duration="790000" />
-      <workItem from="1687023886295" duration="6428000" />
     </task>
     <task id="LOCAL-00001" summary="Configuração do arquivo properties e criação do package com as classes Armazem, Estoque e Produto.">
       <created>1686535072081</created>

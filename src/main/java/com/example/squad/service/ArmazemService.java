@@ -1,16 +1,22 @@
 package com.example.squad.service;
 
-import java.util.List;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import com.example.squad.model.Armazem;
+import com.example.squad.repository.ArmazemRepository;
 
-public interface ArmazemService {
+@Service
+public class ArmazemService {
 
-    Armazem salvar(Armazem armazem) throws Exception;
+    private final ArmazemRepository armazemRepository;
 
-    List<Armazem> buscarTodos ();
+    @Autowired
+    public ArmazemService(ArmazemRepository armazemRepository) {
+        this.armazemRepository = armazemRepository;
+    }
 
-    Armazem buscarPorId(Long id) throws Exception;
-
-    boolean apagar(Long id) throws Exception;
-
+    public Armazem saveArmazem(Armazem armazem) {
+        return armazemRepository.save(armazem);
+    }
 
 }
