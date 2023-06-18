@@ -20,4 +20,4 @@ public class ArmazemService {
     public Armazem saveArmazem(Armazem armazem) {
         return armazemRepository.save(armazem);
     }
-
+}
