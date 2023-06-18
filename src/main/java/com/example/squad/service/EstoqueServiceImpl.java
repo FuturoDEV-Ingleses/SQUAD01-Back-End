@@ -11,12 +11,8 @@ import java.util.Optional;
 @Service
 public class ProdutoServiceImpl implements ProdutoService {
 
-    private final ProdutoRepository produtoRepository;
-
     @Autowired
-    public ProdutoServiceImpl(ProdutoRepository produtoRepository) {
-        this.produtoRepository = produtoRepository;
-    }
+    private ProdutoRepository produtoRepository;
 
     @Override
     public Produto salvar(Produto produto) throws Exception {

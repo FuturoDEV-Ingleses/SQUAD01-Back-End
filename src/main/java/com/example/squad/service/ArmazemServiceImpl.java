@@ -1,30 +1,56 @@
 package com.example.squad.service;
 
+import com.example.squad.model.Armazem;
+import com.example.squad.repository.ArmazemRepository;
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class ArmazemServiceImpl implements ArmazemService {
 
+    @Autowired
+    private ArmazemRepository armazemRepository;
 
     @Override
     public Armazem salvar(Armazem armazem) throws Exception {
-        return null;
+        if (armazem.getId() != null) {
+            buscarPorId(armazem.getId());
+        }
+
+        if (armazem.getNome() == null || armazem.getNome().isEmpty()) {
+            throw new Exception("Nome do armazém é obrigatório");
+        }
+
+        armazem = armazemRepository.save(armazem);
+        return armazem;
     }
 
     @Override
     public List<Armazem> buscarTodos() {
-        return null;
+        return armazemRepository.findAll();
     }
 
     @Override
     public Armazem buscarPorId(Long id) throws Exception {
-        return null;
+        Optional<Armazem> opt = armazemRepository.findById(id);
+        if (!opt.isPresent()) {
+            throw new Exception("Armazém não encontrado!");
+        }
+        return opt.get();
     }
 
     @Override
     public boolean apagar(Long id) throws Exception {
-        return false;
+        Armazem armazem = buscarPorId(id);
+        try {
+            armazemRepository.delete(armazem);
+        } catch (Exception e) {
+            return false;
+        }
+        return true;
     }
 }
