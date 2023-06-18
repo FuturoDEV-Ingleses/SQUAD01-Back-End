@@ -5,6 +5,7 @@ import org.springframework.stereotype.Service;
 import com.example.squad.model.Armazem;
 import com.example.squad.repository.ArmazemRepository;
 
+
 @Service
 public class ArmazemService {
 
@@ -13,10 +14,10 @@ public class ArmazemService {
     @Autowired
     public ArmazemService(ArmazemRepository armazemRepository) {
         this.armazemRepository = armazemRepository;
+
     }
 
     public Armazem saveArmazem(Armazem armazem) {
         return armazemRepository.save(armazem);
     }
 
-}
