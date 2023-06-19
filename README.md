@@ -4,7 +4,7 @@
 
 
 
-## *O Projeto consiste em desenvolver uma aplicação onde os futuros DEVS teram que criar um sistema para controle de estoque de materiais para Ongs.*
+## *O Projeto consiste em desenvolver uma aplicação onde os futuros DEVS deverão criar um sistema para controle de estoque de materiais para Ongs.*
 
 >>REQUISITOS 
 
@@ -39,12 +39,18 @@ Obs.: A taxa de commits concisos será utilizada na avaliação.
 * Quadro no Trello
 * Repositório no GitHub
 
-**Linguagens utilizadas:**
+**Linguagens e Skills utilizadas:**
 - <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
 - <img src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white" />
 - <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
 - <img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white" />
-- <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
 - <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" />
 - <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
+- <img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white" />
+
+**Social:**
+
+<img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white" />
+<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
+
 
