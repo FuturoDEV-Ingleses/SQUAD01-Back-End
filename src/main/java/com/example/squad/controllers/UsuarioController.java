@@ -2,6 +2,7 @@ package com.example.squad.controllers;
 
 import com.example.squad.model.Usuario;
 import com.example.squad.service.UsuarioService;
+import lombok.SneakyThrows;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -20,6 +21,7 @@ public class UsuarioController {
         this.usuarioService = usuarioService;
     }
 
+    @SneakyThrows
     @PostMapping
     @ResponseBody
     public Usuario criarUsuario(@RequestBody Usuario usuario) {

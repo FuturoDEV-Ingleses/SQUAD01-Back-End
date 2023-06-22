@@ -11,11 +11,13 @@ public class Armazem {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @ManyToOne
-    @JoinColumn(nullable = false)
-    private Armazem nome;
 
-    @JoinColumn(nullable = false)
-    private Armazem animal;
+    @Column(nullable = false)
+    private String nome;
+
+    @Column(nullable = false)
+    private String animal;
+
+
 
 }
