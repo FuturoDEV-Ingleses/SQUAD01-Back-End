@@ -1,4 +1,4 @@
-># **Projeto DEVin-Adotion ** :feet:
+># Projeto DEVin-Adotion  :feet:
 :paw_prints:
 <img src="https://github.com/FuturoDEV-Ingleses/SQUAD01-Back-End/assets/101152820/711485b2-144b-438e-a09f-15a23a699485" widht="50px"  height="150px"/>
 
@@ -13,9 +13,6 @@ __________
 
 
 - *Neste projeto, será necessário dividir o sistema em dois: um projeto para o front-end e outro para o back-end.*
-
-- *O projeto front-end será feito em React, tendo os seguintes requisitos:*
-*React, regras de negócio centralizadas na API (não manter as regras de negócio na aplicação front-end);*
 
 - *O projeto back-end será feito em Spring, tendo os seguintes requisitos:*
 *A aplicação deverá ser desenvolvida em Spring, com Java.*
@@ -41,14 +38,11 @@ Obs.: A taxa de commits concisos será utilizada na avaliação.
 * Repositório no GitHub
 
 **Linguagens e Skills utilizadas:**
-- <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-- <img src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white" />
-- <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-- <img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white" />
+
 - <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" />
 - <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
 - <img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white" />
-- <img src="https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E" />
+
 
 **Social:**
 
