@@ -5,36 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08e8f673-0d22-43c7-8bbe-c2d018fc767c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/squad/config/CorsConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/squad/controllers/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/squad/controllers/UsuarioController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/squad/model/Armazem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/squad/model/Armazem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/squad/service/EstoqueServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/squad/service/EstoqueServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/squad/Squad01BackEndApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/squad/Squad01BackEndApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/squad/controllers/ArmazemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/squad/controllers/ArmazemController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/squad/controllers/DashboarController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/squad/controllers/DashboarController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/squad/controllers/EstoqueController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/squad/controllers/EstoqueController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/squad/controllers/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/squad/controllers/LoginController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/squad/controllers/UsuarioController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/squad/controllers/UsuarioController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/squad/model/Armazem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/squad/model/Armazem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/squad/model/Estoque.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/squad/model/Estoque.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/squad/model/Produto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/squad/model/Produto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/squad/model/Usuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/squad/model/Usuario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/squad/repository/ArmazemRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/squad/repository/ArmazemRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/squad/repository/EstoqueRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/squad/repository/EstoqueRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/squad/repository/ProdutoRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/squad/repository/ProdutoRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/squad/repository/UsuarioRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/squad/repository/UsuarioRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/squad/service/ArmazemService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/squad/service/ArmazemService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/squad/service/ArmazemServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/squad/service/ArmazemServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/squad/service/EstoqueService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/squad/service/EstoqueService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/squad/service/ProdutoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/squad/service/ProdutoService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/squad/service/ProdutoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/squad/service/ProdutoServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/squad/service/UsuarioService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/squad/service/UsuarioService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -57,6 +43,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -67,6 +57,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "spring.configuration.checksum": "a8cb0c42967c018e80edeec24085753b",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -88,6 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1687307683917</updated>
       <workItem from="1687307685377" duration="7148000" />
+      <workItem from="1687604560824" duration="4433000" />
     </task>
     <servers />
   </component>

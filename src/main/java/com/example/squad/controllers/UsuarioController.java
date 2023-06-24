@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-@RequestMapping("/usuarios")
+@RequestMapping("/api")
 public class UsuarioController {
 
     private final UsuarioService usuarioService;
@@ -22,7 +22,7 @@ public class UsuarioController {
     }
 
     @SneakyThrows
-    @PostMapping
+    @PostMapping("/cadastro")
     @ResponseBody
     public Usuario criarUsuario(@RequestBody Usuario usuario) {
         return usuarioService.salvar(usuario);
