@@ -34,4 +34,9 @@ public class UsuarioService {
         return usuarioRepository.save(usuario);
     }
 
+    public boolean authenticate(String email, String senha) {
+        Usuario usuario = usuarioRepository.findByEmail(email);
+        return usuario != null && usuario.getSenha().equals(senha);
+    }
+
 }
