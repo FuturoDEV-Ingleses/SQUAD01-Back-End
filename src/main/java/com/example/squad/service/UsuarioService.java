@@ -15,19 +15,23 @@ public class UsuarioService {
         this.usuarioRepository = usuarioRepository;
     }
 
-    public Usuario salvar(Usuario usuario) throws Exception {
+    public Usuario salvar(Usuario usuario) throws IllegalArgumentException {
+
         if (usuario.getNome() == null || usuario.getNome().isEmpty()) {
             throw new IllegalArgumentException("O nome do usuário é obrigatório.");
-        }
-
-        if (usuario.getEmail() == null || usuario.getEmail().isEmpty()) {
-            throw new IllegalArgumentException("O e-mail do usuário é obrigatório.");
         }
 
         if (usuario.getSenha() == null || usuario.getSenha().isEmpty()) {
             throw new IllegalArgumentException("A senha do usuário é obrigatória.");
         }
 
+        // Verificar se o e-mail já está cadastrado
+        Usuario usuarioExistente = usuarioRepository.findByEmail(usuario.getEmail());
+        if (usuarioExistente != null) {
+            throw new IllegalArgumentException("O e-mail já está cadastrado.");
+        }
+
         return usuarioRepository.save(usuario);
     }
+
 }
