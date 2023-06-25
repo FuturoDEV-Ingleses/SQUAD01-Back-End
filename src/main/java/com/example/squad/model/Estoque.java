@@ -23,4 +23,45 @@ public class Estoque {
 
     @Column(length = 20, nullable = false)
     private String categoria;
+
+    public Long getId() {
+    return id;
+}
+
+public void setId(Long id) {
+    this.id = id;
+}
+
+public String getArmazenado() {
+    return armazenado;
+}
+
+public void setArmazenado(String armazenado) {
+    this.armazenado = armazenado;
+}
+
+public String getProduto() {
+    return produto;
+}
+
+public void setProduto(String produto) {
+    this.produto = produto;
+}
+
+public String getQuantidade() {
+    return quantidade;
+}
+
+public void setQuantidade(String quantidade) {
+    this.quantidade = quantidade;
+}
+
+public String getCategoria() {
+    return categoria;
+}
+
+public void setCategoria(String categoria) {
+    this.categoria = categoria;
+}
+
 }
