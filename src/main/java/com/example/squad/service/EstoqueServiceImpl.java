@@ -17,10 +17,12 @@ public class EstoqueServiceImpl implements EstoqueService {
     @Override
     public Estoque salvar(Estoque estoque) throws Exception {
         if (estoque.getId() != null) {
-            buscarPorId(estoque.getId());
+            // Verificar se o ID já existe no banco de dados
+            if (estoqueRepository.existsById(estoque.getId())) {
+                throw new Exception("ID do item de estoque já existe!");
+            }
         }
 
-        
         estoque = estoqueRepository.save(estoque);
         return estoque;
     }
@@ -49,8 +51,7 @@ public class EstoqueServiceImpl implements EstoqueService {
         }
         return true;
     }
-
-}  
+} 
 
  // Implementação de métodos personalizados, se necessário
 

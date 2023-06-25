@@ -18,7 +18,10 @@ public class ArmazemServiceImpl implements ArmazemService {
     @Override
     public Armazem salvar(Armazem armazem) throws Exception {
         if (armazem.getId() != null) {
-            buscarPorId(armazem.getId());
+            // Verificar se o ID já existe no banco de dados
+            if (armazemRepository.existsById(armazem.getId())) {
+                throw new Exception("ID do armazém já existe!");
+            }
         }
 
         if (armazem.getNome() == null || armazem.getNome().isEmpty()) {
@@ -54,3 +57,4 @@ public class ArmazemServiceImpl implements ArmazemService {
         return true;
     }
 }
+
