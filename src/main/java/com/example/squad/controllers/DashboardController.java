@@ -1,4 +1,4 @@
-/*package com.example.squad.controllers;
+package com.example.squad.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -7,14 +7,11 @@ import com.example.squad.service.EstoqueService;
 import com.example.squad.service.ArmazemService;
 import com.example.squad.model.Armazem;
 
-
+import java.util.List;
 
 @Controller
 public class DashboardController {
-    @Autowired
     private EstoqueService estoqueService;
-
-    @Autowired
     private ArmazemService armazemService;
 
     public DashboardController(EstoqueService estoqueService, ArmazemService armazemService) {
@@ -50,12 +47,12 @@ public class DashboardController {
         return "dashboard";
     }
 
-    private double calcularValorTotalArmazens(List<Armazem> armazens) {
-        double valorTotal = 0.0;
-        for (Armazem armazem : armazens) {
-            valorTotal += armazem.getValor(); // Supondo que a classe Armazem tenha um atributo 'valor'
-        }
-        return valorTotal;
+   private double calcularValorTotalArmazens(List<Armazem> armazens) {
+    double valorTotal = 0.0;
+    for (Armazem armazem : armazens) {
+        valorTotal += armazem.getValor(); 
     }
-}*/
+    return valorTotal;
+}
+    }
 

@@ -51,7 +51,38 @@ public class EstoqueServiceImpl implements EstoqueService {
         }
         return true;
     }
-} 
+
+    @Override
+    public int getQuantidadeProdutoPorAnimalCategoria(String animal, String categoria) {
+       
+        throw new UnsupportedOperationException("Unimplemented method 'getQuantidadeProdutoPorAnimalCategoria'");
+    }
+
+    @Override
+public Estoque atualizarProduto(Long id, String novoNomeProduto, String novaQuantidade) throws Exception {
+    Estoque estoque = buscarPorId(id);
+    estoque.setProduto(novoNomeProduto);
+    estoque.setQuantidade(novaQuantidade);
+    estoque = estoqueRepository.save(estoque);
+    return estoque;
+}
+
+@Override
+public Estoque cadastrarNovoProduto(String armazenado, String produto, String quantidade, String animal, String categoria) throws Exception {
+    
+    Estoque estoque = new Estoque();
+    estoque.setArmazenado(armazenado);
+    estoque.setProduto(produto);
+    estoque.setQuantidade(quantidade);
+    estoque.setAnimal(animal);
+    estoque.setCategoria(categoria);
+
+    estoque = estoqueRepository.save(estoque);
+    return estoque;
+}
+
+
+}  
 
  // Implementação de métodos personalizados, se necessário
 
