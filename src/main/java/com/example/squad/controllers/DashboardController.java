@@ -21,7 +21,7 @@ public class DashboardController {
 
     @GetMapping("/dashboard")
     public String showDashboard(Model model) {
-        // Obter informações do Estoque
+        
         int quantidadeRacaoEstoqueCachorro = estoqueService.getQuantidadeProdutoPorAnimalCategoria("Cachorro", "Ração");
         int quantidadeRacaoEstoqueGato = estoqueService.getQuantidadeProdutoPorAnimalCategoria("Gato", "Ração");
         int quantidadeAntiparasitariaEstoqueCachorro = estoqueService.getQuantidadeProdutoPorAnimalCategoria("Cachorro", "Antiparasitária");
@@ -29,13 +29,12 @@ public class DashboardController {
         int quantidadeAntipulgasEstoqueCachorro = estoqueService.getQuantidadeProdutoPorAnimalCategoria("Cachorro", "Antipulgas");
         int quantidadeAntipulgasEstoqueGato = estoqueService.getQuantidadeProdutoPorAnimalCategoria("Gato", "Antipulgas");
 
-        // Obter informações dos Armazéns
+       
         List<Armazem> armazens = armazemService.buscarTodos();
-
-        // Calcular valor total dos itens nos Armazéns
+        
         double valorTotalArmazens = calcularValorTotalArmazens(armazens);
 
-        // Adicionar os dados ao modelo para serem exibidos no frontend
+        
         model.addAttribute("quantidadeRacaoEstoqueCachorro", quantidadeRacaoEstoqueCachorro);
         model.addAttribute("quantidadeRacaoEstoqueGato", quantidadeRacaoEstoqueGato);
         model.addAttribute("quantidadeAntiparasitariaEstoqueCachorro", quantidadeAntiparasitariaEstoqueCachorro);

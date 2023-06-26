@@ -25,7 +25,7 @@ public class ArmazemController {
 
     @PostMapping
     public Armazem saveArmazem(@RequestBody Armazem armazem) {
-        armazem.setSituacao("Ativo"); // Define o valor padrão "ativo" para a coluna "situacao"
+        armazem.setSituacao("Ativo"); 
         return armazemRepository.save(armazem);
     }
 
