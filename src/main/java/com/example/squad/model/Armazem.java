@@ -20,4 +20,54 @@ public class Armazem {
     @Column(nullable = false)
     private String situacao = "Ativo"; // Valor padrão "ativo"
 
+    private double valor;
+
+    public double getValor() {
+        return valor;
+    }
+
+    public void setValor(double valor) {
+        this.valor = valor;
+    }
+
+    // Outros getters e setters
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public String getAnimal() {
+        return animal;
+    }
+
+    public void setAnimal(String animal) {
+        this.animal = animal;
+    }
+
+    public String getSituacao() {
+        return situacao;
+    }
+
+    public void setSituacao(String situacao) {
+        this.situacao = situacao;
+    }
+
+    // Outros métodos da classe
+
+    @Override
+    public String toString() {
+        return "Armazem [id=" + id + ", nome=" + nome + ", animal=" + animal + ", situacao=" + situacao + ", valor=" + valor + "]";
+    }
 }

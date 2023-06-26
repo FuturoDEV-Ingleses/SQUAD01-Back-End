@@ -12,4 +12,6 @@ public interface EstoqueService {
     Estoque buscarPorId(Long id) throws Exception;
 
     boolean apagar(Long id) throws Exception;
+
+    int getQuantidadeProdutoPorAnimalCategoria(String animal, String categoria);
 }
