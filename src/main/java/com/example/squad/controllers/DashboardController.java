@@ -13,7 +13,7 @@ import java.util.List;
 public class DashboardController {
     private EstoqueService estoqueService;
     private ArmazemService armazemService;
-    private int totalAnimais; // Adicionando a variável para o total de animais
+    private int totalAnimais;
 
     public DashboardController(EstoqueService estoqueService, ArmazemService armazemService, int totalAnimais) {
         this.estoqueService = estoqueService;

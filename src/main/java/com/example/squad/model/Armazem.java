@@ -18,7 +18,7 @@ public class Armazem {
     private String animal;
 
     @Column(nullable = false)
-    private String situacao = "Ativo"; // Valor padrão "ativo"
+    private String situacao = "Ativo"; 
 
     private double valor;
 
